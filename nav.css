@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-yixaun {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.nav-about {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.nav-design {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.nav-tech {
+    flex: 1;
+    background-color: aquamarine;
+}
