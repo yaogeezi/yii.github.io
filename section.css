@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.section-yixuan,
+.section-about,
+.section-design,
+.section-tech {
+    flex: 1;
+    border-right: 1px solid white;
+
+    margin-right: 5px;
+    margin-left:5px;
+    margin-top: 5px;
+}
+
+.section-yixuan{
+    margin-left: 10px;
+}
+
+.section-tech {
+    border-right: none;
+}

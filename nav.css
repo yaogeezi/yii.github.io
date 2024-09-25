@@ -1,24 +1,32 @@
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    height: 40px;
 }
 
-.nav-yixaun {
+.nav-yixuan,
+.nav-about,
+.nav-design,
+.nav-tech
+{
     flex: 1;
-    background-color: aquamarine;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    
+    margin-right: 5px;
+    margin-left:5px;
+
+    padding-bottom: 5px;
+
 }
 
-.nav-about {
-    flex: 1;
-    background-color: aquamarine;
-}
-
-.nav-design {
-    flex: 1;
-    background-color: aquamarine;
+.nav-yixuan{
+margin-left: 10px;
 }
 
 .nav-tech {
-    flex: 1;
-    background-color: aquamarine;
+    border-right: none;
 }
